@@ -13,6 +13,10 @@
 
 }
 
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
 
 /* -------------------- */
 
@@ -192,7 +196,58 @@ h1 {
     width: 15rem;
     text-align: center;
     align-self: center;
+    transition: all .2s;
+    animation: moveInButton .5s ease-out 1s;
+    animation-fill-mode: backwards;
+    position: relative;
 }
+
+.btn-hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(217, 139, 93, 0.1);
+
+}
+
+.btn-hero::after {
+    background-color: var(--tertiary-color);
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+
+.btn-hero:hover::after {
+   transform: scaleX(1.4) scaleY(1.6);
+   opacity: 0;
+}
+
+.btn-hero:active {
+    transform: scale(0.98);
+}
+
+@keyframes moveInButton {
+    0% {
+     opacity: 0;  
+     transform: translateY(-5rem);
+    }
+
+    75% {
+        opacity: 0.8;
+        transform: translateY(1rem);
+    }
+ 
+ 
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
 
 @media screen and (min-width:1200px) {
     .hero-blurb-container h3 {
@@ -212,4 +267,40 @@ h1 {
     }
 }
 
+/* -------------------- */
+
+/* INTRODUCTION */
+
+
+.intro-heading {
+    text-align: center;
+    background: linear-gradient(to bottom right, #4E47D8, #D98B5D);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin: 5rem;
+    font-size: 5rem;
+    letter-spacing: 0.5rem;
+}
+
+.intro-container-bg {
+    width: 100%;
+    height: 40vh;
+    background: url(/assests/media/intro-img.jpg) center center/cover no-repeat;
+    border-radius: 3rem;
+    /* overflow: hidden; */
+}
+
+.intro-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, transparent);
+}
+
+.intro-container p {
+    padding: 3rem;
+    padding-right: 20rem;
+    font-size: 2rem;
+    line-height: 1.7;
+}
 /* -------------------- */
