@@ -31,7 +31,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .nav-flex {
@@ -115,7 +115,7 @@ h1 {
 /* HERO */
 
 .hero-container {
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     /* overflow: hidden; */
@@ -164,6 +164,7 @@ h1 {
     clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
+    /* box-shadow: 0 0 rem rgba(0, 0, 0, 0.6); */
 }
 
 .hero-blurb-container  {
@@ -308,3 +309,64 @@ h1 {
 }
 
 
+/* EQUIPMENT SECTION */
+
+.equipment-bg {
+    background: url(../media/gear-bg.jpg) center center/cover no-repeat;
+    background-attachment: fixed;
+    height: 200vh;
+   position: relative;
+   z-index: 0;
+}
+
+.equipment-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.equipment-content {
+    z-index: 100;
+    position: relative;
+    /* top: 10%; */
+    /* left: 10%; */
+}
+
+.equipment-header {
+    color: #fff;
+    margin: 3rem 2rem;
+    display: inline-block;
+    font-size: 3rem;
+    z-index: 100;
+}
+
+.equipment-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.grid-item {
+    height: 30rem;
+}
+
+.equipment-grid-container > div:nth-child(odd) img {
+    border: #4E47D8 5px solid;
+}
+.equipment-grid-container > div:nth-child(even) img {
+    border: #D98B5D 5px solid;
+}
+
+.equipment-grid-container img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 3rem;
+}
