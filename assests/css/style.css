@@ -423,3 +423,45 @@ h1 {
 .grid-item:hover .grid-item-overlay span {
     transform: translateY(0);
 }
+
+/* RECORDING SECTION */
+
+.recording-bg {
+    background: url(/assests/media/recording-bg.jpg) center center/cover no-repeat;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.recording-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+    width: 40%;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+}
+
+.recording-heading {
+    font-size: 4rem;
+    font-weight: 100;
+    margin: 2rem 0;
+}
+
+.recording-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.btn-recording {
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+.btn-recording::after {
+    background-color: var(--primary-color);
+}
