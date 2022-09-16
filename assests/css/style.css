@@ -427,7 +427,7 @@ h1 {
 /* RECORDING SECTION */
 
 .recording-bg {
-    background: url(/assests/media/recording-bg.jpg) center center/cover no-repeat;
+    background: url(assests/media/recording-bg.jpg) center center/cover no-repeat;
     width: 100%;
     height: 70vh;
     position: relative;
