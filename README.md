@@ -4,6 +4,8 @@ System shock Rehearsals is a passion project of mine as it is the exact business
 
 The aim is to make the information easily available as possible through a single scrollable website which is accessible on all the most commonly used devices.
 
+[Link](https://eeebeedee.github.io/systemshock_rehearsals/) to deployed site
+
 ![I Am Responsive image](assests/media/placeholder-readme.png)
 
 
