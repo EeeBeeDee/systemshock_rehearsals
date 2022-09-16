@@ -1,15 +1,34 @@
 # **SYSTEMSHOCK REHEARSALS**
-Arts and crafts have been a part of our lives since the dawn of civilisation.
-They have enjoyed a resurgence in recent years, not least for their well documented mental health benefits.
 
-There is a great satisfaction to be gained from embarking on and completing a project that reflects ones own personal style.
+System shock Rehearsals is a passion project of mine as it is the exact business I would  love to open up myself. Not only a collection of equipment but people too that will make creating any sound of can think of as easily as possible.
 
-This project is a personal indulgence and reflects my love of both crafts and coding.  Both are a never ending journey which forms part of their appeal!
+The aim is to make the information easily available as possible through a single scrollable website which is accessible on all the most commonly used devices.
 
-The project's overall aim is to deliver a small e-commerce site for a hypothetical yarn supply store called *Artisan Yarns*.  Whilst not a unique offering, it is my hope to further develop it after this course as more expertise is required to make it truely shine.
+![I Am Responsive image](assests/media/placeholder-readme.png)
 
-As for its justification, many crafters prefer the experience of going to a store and getting a feel for a product.  However, there is a niche for those know what they want and desire the convenience of an online order delivered straight to their home.
 
+## UX 
+
+
+### User stories
+
+* #### First time user goals
+
+    * As a first time user, I want to be easily navigate the website
+    * As a first time user, I want my viewing experience to be smooth on any device I my use.
+    * As a first time user, I want the websites aim and goals to be easily understood and readily available .
+
+* #### Returning user goals
+
+    * As a returning visitor, I want any new deals or equipment available to view.
+    * As a returning visitor, I want to be able to get in contact about services advertised or just in general 
+    *  As a returning visitor, I want to see new content and general updates about the business and its services
+
+### Design
+
+#### Colour Scheme
+
+![Websites colour palette](assests/media/systemshock_palette.png)
 
 ## Deployment
 
