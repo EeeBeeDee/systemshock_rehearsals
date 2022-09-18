@@ -2,6 +2,11 @@
 
 /* GENERAL */
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 .btn {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
@@ -314,7 +319,7 @@ h1 {
 .equipment-bg {
     background: url(../media/gear-bg.jpg) center center/cover no-repeat;
     background-attachment: fixed;
-    height: 200vh;
+    height: 300vh;
    position: relative;
    z-index: 0;
 }
@@ -372,6 +377,7 @@ h1 {
 }
 .equipment-grid-container > div:nth-child(even) img {
     border: var(--tertiary-color) 7px solid;
+    color: #fff;
 }
 .equipment-grid-container > div:nth-child(even) .grid-item-overlay {
     background-color: var(--primary-color);
@@ -383,6 +389,7 @@ h1 {
     overflow: hidden;
     border-radius: 3rem;
     transition: all 1s ease-in-out;
+    object-fit: cover;
 }
 
 .grid-item-overlay {

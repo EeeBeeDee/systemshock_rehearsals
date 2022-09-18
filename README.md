@@ -6,7 +6,7 @@ The aim is to make the information easily available as possible through a single
 
 [Link](https://eeebeedee.github.io/systemshock_rehearsals/) to deployed site
 
-![I Am Responsive image](assests/media/placeholder-readme.png)
+![I Am Responsive image](documentation/placeholder-readme.png)
 
 
 ## UX 
@@ -30,7 +30,7 @@ The aim is to make the information easily available as possible through a single
 
 #### Colour Scheme
 
-![Websites colour palette](assests/media/systemshock_palette.png)
+![Websites colour palette](documentation/systemshock_palette.png)
 
 For this project the three main prevalent colours I decided on were Persian Indigo #33006E, Raw Sienna #D98B5D and White #fff.
 
@@ -40,7 +40,7 @@ With the Persian Indigo the approach was similar, I needed a complementary darke
 
 #### Typography
 
-For typography I decided to go for a singular font from ![Google Fonts](https://fonts.google.com/) called Manrope. With a similar approach to the colour palette I wanted to find font that at first glance was not standard but its appearance wasn't distracting or that it didn't affect readability. 
+For typography I decided to go for a singular font from [Google Fonts](https://fonts.google.com/) called Manrope. With a similar approach to the colour palette I wanted to find font that at first glance was not standard but its appearance wasn't distracting or that it didn't affect readability. 
 
 ## Features
 

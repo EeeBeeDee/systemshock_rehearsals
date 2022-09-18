@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
+/* Variables */
+
+:root {
+   --primary-color: #33006E;
+   --secondary-color: #33F2DD;
+   --tertiary-color: #D98B5D;
+}
+
 /* General STYLES & RESETS */
 
 *,
@@ -19,13 +27,7 @@ body {
    font-family: 'Manrope';
 }
 
-/* Variables */
 
-:root {
-   --primary-color: #33006E;
-   --secondary-color: #33F2DD;
-   --tertiary-color: #D98B5D;
-}
 
 /* -------------------- */
 
