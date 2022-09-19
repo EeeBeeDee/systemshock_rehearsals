@@ -567,3 +567,66 @@ h1 {
     color: #000;
     background-color: var(--tertiary-color);
 }
+
+/* BOOKINGS */
+
+.bookings-bg {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #33006E, #D98B5D) ,url(../media/booking-bg.jpg) center center/cover no-repeat ;
+    background-blend-mode: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookings-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(238, 238, 238, 0.5);
+    padding: 3rem 5rem;
+    border-radius: 3rem;
+    /* border-top: 0.5rem solid var(--tertiary-color);
+    border-left: 0.5rem solid var(--tertiary-color);
+    border-bottom: 0.5rem solid var(--primary-color);
+    border-right: 0.5rem solid var(--primary-color); */
+}
+
+.bookings-form label {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.bookings-form input {
+    width: 100%;
+    height: 3rem;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 3rem;
+    opacity: 0.7;
+} 
+
+.bookings-form select {
+    width: 100%;
+    height: 3rem;
+    padding: 0 4rem;
+    border: none;
+    border-radius: 3rem;
+    opacity: 0.7;
+}
+
+.bookings-form textarea {
+    width: 100%;
+    font-family: inherit;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 3rem;
+    opacity: 0.7;
+}
+.bookings-form .submit-btn {
+    border: none;
+    cursor: pointer;
+    width: min-content;
+}

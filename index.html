@@ -37,7 +37,7 @@
             <h3>Hear Us Out!</h3>
             <h2>Because we wanna hear you.</h3>
             <p>Rehearsal rooms and recording suites all under one roof.</p>
-            <a class="btn btn-hero" href="#">Check our prices</a>
+            <a class="btn btn-hero" href="#prices">Check our prices</a>
         </div>
     </section>
 
@@ -154,7 +154,7 @@
                 <div class="recording-text-box">
                     <h3 class="recording-heading">Your sound is in safe hands</h3>
                     <p class="recording-text">With a combined 52 years experience between our 3 resident sound engineers. we know how to make the most of your recording time.</p>
-                    <a class="btn btn-hero btn-recording" href="#">Check our prices</a>
+                    <a class="btn btn-hero btn-recording" href="#prices">Check our prices</a>
                 </div>
                
             </div>
@@ -168,7 +168,7 @@
         </div>
     </section>
 
-    <section class="prices">
+    <section class="prices u-padding-top-large" id="prices">
         <div class="u-container">
             <h2 class="intro-heading">Even Our Prices Sound Good!</h2>
            <div class="price-card u-margin-bottom-large">
@@ -187,7 +187,7 @@
                         - Use of any and all equipment listed on our site </p>
                         <div class="price-booking-flex">
                             <div class="price-icon">€280 p/d</div>
-                            <a class="btn btn-hero" href="#">Book Now!</a>
+                            <a class="btn btn-hero" href="#bookings">Book Now!</a>
                     </div>
                 </div>
            </div>
@@ -209,10 +209,31 @@
                     - Any other equipment can be rented for €5 per session </p>
                     <div class="price-booking-flex">
                         <div class="price-icon price-icon-tertiary">€55</div>
-                        <a class="btn btn-hero btn-recording" href="#">Book Now!</a>
+                        <a class="btn btn-hero btn-recording" href="#bookings">Book Now!</a>
                 </div>
             </div>
            </div>
+        </div>
+    </section>
+
+    <section class="bookings" id="bookings">
+        <div class="bookings-bg">
+            <form class="bookings-form">
+                <h2 class="intro-heading bookings-heading">Get In Touch</h2>
+                <label for="bookings-name">Name</label>
+                <input type="text" id="bookings-name" placeholder="Enter name...">
+                <label for="bookings-email">email</label>
+                <input type="email" id="bookings-email" placeholder="Enter email...">
+                <label for="bookings-option">Looking to book or just get in touch?</label>
+                <select name="" id="bookings-option">
+                    <option value="recording">Recording</option>
+                    <option value="rehearsal">Rehearsal</option>
+                    <option value="general">General questions</option>
+                </select>
+                <label for="bookings-message">Fill us in!</label>
+                <textarea  id="bookings-message" cols="30" rows="10" placeholder="What do we need to know?"></textarea>
+                <input type="submit" class="btn submit-btn"  id="">
+            </form>
         </div>
     </section>
 
