@@ -7,6 +7,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Manrope';
+ }
+
 .btn {
     color: var(--primary-color);
     background-color: var(--tertiary-color);
@@ -375,9 +379,12 @@ h1 {
 .equipment-grid-container > div:nth-child(odd) .grid-item-overlay {
     background-color: var(--tertiary-color);
 }
+
+.equipment-grid-container > div:nth-child(odd) .grid-item-overlay span {
+    color: #000;
+}
 .equipment-grid-container > div:nth-child(even) img {
     border: var(--tertiary-color) 7px solid;
-    color: #fff;
 }
 .equipment-grid-container > div:nth-child(even) .grid-item-overlay {
     background-color: var(--primary-color);
@@ -471,4 +478,92 @@ h1 {
 
 .btn-recording::after {
     background-color: var(--primary-color);
+}
+
+.recording-container-bg {
+    width: 100%;
+    height: 40vh;
+    background: url(../media/cassette.jpg) center center/cover no-repeat;
+    border-radius: 3rem;
+    /* overflow: hidden; */
+}
+
+.recording-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #000 0%, #000 50%, transparent);
+    border-radius: 3rem;
+}
+
+.recording-container p {
+    color: #fff;
+    padding: 3rem;
+    padding-right: 20rem;
+    font-size: 2rem;
+    line-height: 1.7;
+}
+
+/* PRICES */
+
+.price-card {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 30rem;
+    background-color: #eee;
+    box-shadow:  0 .5rem 3rem 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ;
+}
+
+.price-card-reverse {
+    flex-direction: row-reverse;
+}
+
+.price-card:hover {
+    transform: scale(1.05);
+    box-shadow:  0 .5rem 2rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.price-img-container {
+    height: 100%;
+    width: 33%;
+    overflow: hidden;
+    
+}
+
+.price-img {
+    width: 100%;
+    height: 100%;
+}
+
+.price-blurb {
+    width: 66%;
+}
+.price-blurb h2 {
+    font-size: 2.5rem;
+}
+.price-blurb p {
+    font-size: 1.4rem;
+}
+
+.price-booking-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.price-icon {
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    border-radius: 3rem;
+}
+
+.price-icon-tertiary {
+    color: #000;
+    background-color: var(--tertiary-color);
 }
