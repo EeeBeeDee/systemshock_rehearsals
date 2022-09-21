@@ -101,14 +101,11 @@ h1 {
     color: var(--tertiary-color);
     font-weight: bold;
     letter-spacing: 0.4rem;
-    
-
 }
 
-/* .nav-link.active {
-    border-bottom: 5px solid var(--tertiary-color);
-
-} */
+.navbar-bolt {
+    display: none;
+}
 
 .nav-button {
     height: 4rem;
@@ -780,11 +777,56 @@ h1 {
 
 @media screen and (max-width:500px) {
     
+    .u-padding-top-large {
+        padding-top: 3rem;
+    }
+
+
     h1 {
         font-size: 1rem;
     }
     .nav-link a {
         font-size: 0.7rem;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 6rem;
+        right: 0;
+        height: 100vh;
+        width: 15rem;
+        justify-content: flex-start;
+        flex-direction: column;
+        transform: translateX(100%);
+    }
+
+    .nav-links.active {
+        transform: translateX(0);
+    }
+
+    .navbar-bolt {
+        display: block;
+        justify-self: flex-end;
+        margin-top: 20rem;
+        text-align: center;
+    }
+    
+    .navbar-bolt i {
+        font-size: 5rem;
+
+    }
+
+    .nav-link {
+        margin: 2rem 0;
+        font-size: 1rem;
+    }
+
+    .nav-link a {
+        font-size: 1rem;
+    }
+
+    .hero-blurb-container-bg {
+        width: 70%;
     }
 
     .hero-blurb-container {
@@ -833,5 +875,42 @@ h1 {
     .social-icons {
         font-size: 4rem;
         margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .price-icon {
+        font-size: 1.6rem;
+    }
+
+    .footer-heading {
+        font-size: 2rem;
+    }
+
+    /* .equipment-grid-container {
+        grid-template-columns: 1fr;
+        width: 70vw;
+    }
+
+    .grid-item {
+        width: 100%;
+    } */
+
+
+    .footer-info {
+        border-right: none;
+    }
+
+    .footer-info span {
+        font-size: 1rem;
+    }
+    .social-icons {
+        font-size: 2rem;
+        margin: 0 2rem ;
     }
 }
