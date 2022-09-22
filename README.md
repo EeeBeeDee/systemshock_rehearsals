@@ -83,7 +83,7 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 - uses the grid system to display available equipment 
 - every second item has a different border and overlay
 - when hovered the image darkens and zooms in while an overlay of the opposite color of the border comes up from below with the name of the equipment
-- on mobile the only change is the size of the grid rows is changed to 2 to make it easier to view and stop the images distorting (see below:)
+- on mobile the only change is the size of the grid rows is changed to 1 to make it easier to view and stop the images distorting (see below:)
 
 ![equipment-mobile](documentation/equipment-mobile.png)
 
