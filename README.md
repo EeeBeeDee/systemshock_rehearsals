@@ -130,6 +130,8 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
     - Git was used for version control and to Push to GitHub.
 - [GitHub:](https://github.com/)
     - GitHub is used to store the project's code remotely and then to host the static website on GitHub Pages.
+- [VScode](https://code.visualstudio.com/)
+    - Vscode was my code editor for this project.
 
 
 ## Testing 
@@ -198,4 +200,4 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EeeBeeDee/systemshock_rehearsals)
 
-## Credits
+## Creditshttps://code.visualstudio.com/
