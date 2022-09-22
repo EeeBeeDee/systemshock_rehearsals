@@ -28,10 +28,8 @@ body {
     color: var(--tertiary-color);
 }
 
-/* -------------------- */
 
 /* NAVBAR */
-
 
 
 .navbar {
@@ -178,6 +176,7 @@ h1 {
     height: 100%;
     width: 100%;
     display: inline-block;
+    object-fit: cover;
 }
 
 .hero-container::after {
@@ -774,6 +773,10 @@ h1 {
     .price-blurb p {
         font-size: 1.3rem;
     }
+
+    .equipment-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width:500px) {
@@ -844,7 +847,7 @@ h1 {
    }
 
    .equipment-grid-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
    }
 
     .recording-text-box {

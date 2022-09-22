@@ -175,7 +175,7 @@ The first image is the lighthouse scores for desktop and the second for mobile. 
 ![chrome-validation](documentation/validate-chrome.png)
 ![firefox-mobile-validation](documentation/validate-firefox-mobile.png)
 
-Above is images of the site working on chrome on desktop and firefox with moble dimensions.
+Above are images of the site working on chrome on desktop and firefox with moble dimensions.
 
 Tested to work on all other chromium browers like opera and edge
 
