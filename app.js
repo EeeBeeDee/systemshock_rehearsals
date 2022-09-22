@@ -11,5 +11,6 @@ navButton.addEventListener('click', () => {
 navLink.forEach(link => {
     link.addEventListener('click', () => {
         navFlex.classList.toggle('active')
+        burgerline.classList.toggle('active')
     })
 })

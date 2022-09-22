@@ -44,6 +44,74 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 
 ## Features
 
+### Navbar
+
+![navbar](documentation/navbar-desktop.png)
+![Navbar-active](documentation/navbar-desktop-active.png)
+
+#### For desktop - tablet
+- sleek simple design
+- logo and name act as link to return to the top of the page
+- animated burger menu which brings in links for different sections
+- links section automatically close after selected
+- uses Javascript for burger menu interaction
+
+![navbar-mobile](documentation/navbar-mobile.png)
+![navbar-mobile-active](documentation/navbar-mobile-active.png)
+
+#### For mobile
+- same principles as desktop menu
+- links section now comes in on right side of screen and takes up full height for ease of use on mobile devices
+- also includes logo in the bottom of the now bigger proportioned menu 
+
+### Hero 
+
+![hero-image](documentation/hero-doc.png)
+
+- uses a full screen image with two layers above it. One is a linear-gradient of the two main colours running from the top left to bottom right and another of just black. Using a medium opacity on both to create the effect
+- Intro blurb positioned out of the way to let background take center stage
+- button drops in a second after the page has loaded to draw the eye into that area
+-  for mobile the only change is the text area and its background is given more real estate to help keep all text readable and on a single screen (see below:)
+
+![hero-image-mobile](documentation/hero-doc-mobile.png)
+
+### Equipment
+
+![equipment-section](documentation/equipment.png)
+![equipment-section-hover](documentation/equipment-hover.png)
+
+- uses the grid system to display available equipment 
+- every second item has a different border and overlay
+- when hovered the image darkens and zooms in while an overlay of the opposite color of the border comes up from below with the name of the equipment
+- on mobile the only change is the size of the grid rows is changed to 2 to make it easier to view and stop the images distorting (see below:)
+
+![equipment-mobile](documentation/equipment-mobile.png)
+
+### Pricing 
+
+![pricing](/documentation/pricing.png)
+
+#### For desktop
+
+- used cards to differentiate between our servicies 
+- used flex box to allow an easy staggered effect
+- on hover the cards enlarge and the box-shadow grows giving an almost tactile impression
+
+![pricing-mobile](/documentation/pricing-mobile.png)
+
+#### For mobile
+
+- flex direction is changed to column to stack divs on top of each other for ease of reacding 
+- new shape lends itself to scrolling on small screens better
+- images resized to fit new shape better
+
+### Contact
+
+![fontact-form](documentation/contact.png)
+
+- background uses a linear-gradient of the two primary colours and the property background-blend-mode with the screen value to create the effect
+- contact form itself is fully responsive and needed no tweaking between screen sizes
+
 ## Technologies Used
 
 ### Languages Used
