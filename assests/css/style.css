@@ -668,9 +668,6 @@ h1 {
     padding: 3rem;
     height: 25rem;
     width: 100%;
-    /* position: absolute;
-    bottom: 0;
-    z-index: -1; */
     text-align: center;
 }
 
@@ -733,6 +730,22 @@ h1 {
 
 .footer-social a:active .social-icons {
     color: #4E47D8;
+}
+
+/* Thank You Page */
+
+.thankyou-bg {
+    height: 80vh;
+}
+
+.thankyou-text {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.thankyou-bolt {
+    font-size: 3rem;
+    color: var(--primary-color);
 }
 
 /* MEDIA QUERIES */
@@ -895,15 +908,6 @@ h1 {
     .footer-heading {
         font-size: 2rem;
     }
-
-    /* .equipment-grid-container {
-        grid-template-columns: 1fr;
-        width: 70vw;
-    }
-
-    .grid-item {
-        width: 100%;
-    } */
 
 
     .footer-info {

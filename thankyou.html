@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Recording studio and rehearsal room rental">
     <meta name="keywords" content="music, recording studio, rehearsal rooms, music practice">
+    <meta http-equiv="refresh" content="10; url=index.html">
     <!-- Font Aweome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -17,7 +18,59 @@
 </head>
 
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="u-container">
+            <div class="nav-flex">
+                <a href="#">
+                    <h1>SystemShock <i class="fa-solid fa-bolt"></i></h1>
+                </a>
+                <div class="nav-button" id="nav-button">
+                    <div class="burgerline" id="burgerline"></div>
+                </div>
+            </div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li class="nav-link"><a class="click-link" href="#equipment">equipment</a></li>
+            <li class="nav-link"><a class="click-link" href="#recording">Recording</a></li>
+            <li class="nav-link"><a class="click-link" href="#prices">Pricing</a></li>
+            <li class="nav-link"><a class="click-link" href="#bookings">contact</a></li>
+            <li class="navbar-bolt"><i class="fa-solid fa-bolt nav-link"></i></li>
+        </ul>
+    </nav>
+
+    <!-- Thank You -->
+    <section class="bookings" id="bookings">
+        <div class="bookings-bg thankyou-bg">
+            <form class="bookings-form" action="thankyou.html">
+                <h2 class="intro-heading bookings-heading">Thank You!</h2>
+                <p class="thankyou-text">Someone from our team will get back in touch soon!
+                    <br><br> This page will automatically redirect to our home page shortly!</p>
+                <i class="fa-solid fa-bolt thankyou-bolt u-margin-top-large"></i>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <h2 class="footer-heading">SystemShock <i class="fa-solid fa-bolt"></i></h2>
+        <div class="footer-flex">
+            <div class="footer-info">
+
+                <span>&copy; SYSTEMSHOCK Rehearsals 2022</span>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/" target="_blank"><span class="social-icons h2"><i
+                            class="fab fa-instagram"></i></span></a>
+                <a href="https://www.facebook.com/" target="_blank"><span class="social-icons h2"><i
+                            class="fab fa-facebook"></i></span> </a>
+                <a href="https://twitter.com/" target="_blank"><span class="social-icons h2"><i
+                            class="fab fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/" rel="nofollow noreferrer" target="_blank"><span
+                        class="social-icons h2"><i class="fab fa-youtube"></i></span></a>
+            </div>
+        </div>
+    </footer>
 
     <script src="assests/js/app.js"></script>
 </body>
