@@ -38,10 +38,16 @@ The first image is the lighthouse scores for desktop and the second for mobile. 
 ### Compatibility 
 
 ![chrome-validation](documentation/validate-chrome.png)
+![opera-validation](documentation/validate-opera-tablet.png)
 ![firefox-mobile-validation](documentation/validate-firefox-mobile.png)
 
-Above are images of the site working on chrome on desktop and firefox with moble dimensions.
+Above are images of the site working on chrome on desktop, opera with tablet dimensions and firefox with moble dimensions.
 
-Tested to work on all other chromium browers like opera and edge
 
-###
+### Responsiveness
+
+![chrome-validation](documentation/validate-chrome.png)
+![opera-validation](documentation/validate-opera-tablet.png)
+![firefox-mobile-validation](documentation/validate-firefox-mobile.png)
+
+Above are images of the site working in desktop ,tablet and mobile dimensions

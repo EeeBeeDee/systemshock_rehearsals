@@ -157,4 +157,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EeeBeeDee/systemshock_rehearsals)
 
-## Creditshttps://code.visualstudio.com/
+## Credits
+
+[Tim_nelson](https://tim.2bn.dev/) - My CI mentor who helped keep me focused and whos guidance really made this come together 
