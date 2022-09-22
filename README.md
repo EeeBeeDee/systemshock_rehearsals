@@ -132,6 +132,11 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
     - GitHub is used to store the project's code remotely and then to host the static website on GitHub Pages.
 
 
+## Testing 
+
+### Code validation 
+
+
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
