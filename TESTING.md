@@ -15,6 +15,8 @@ My HTML file showed no warnings or errors when validated
 
 The only warning on my own CSS files is for the background-clip attribute with the text property as it is deprecated but to my knowledge is is the only way to get the effect I was looking for. This is in my style.css file
 
+![CSS-validation](documentation/validate-css-utilites.png)
+
 My utilites.css file showed no warnings or errors
 
 All other Warnings and errors are coming from Font Awesomes CSS files
@@ -23,10 +25,7 @@ All other Warnings and errors are coming from Font Awesomes CSS files
 
 ![Javascript-validation](documentation/validate-js.png)
 
-Although there is 18 warnings they consist of the same three warnings.
 
-- the first is asking for the use of semicolons a practice I do not use in Javascript since I first began learning 
-- the second and third are warnings about using 'const' and '() =>' arrow functions which are supported in ES6 only. Seeing as that is the standard now I don't feel the warning are warrented
 
 ### Lighthouse
 
@@ -36,7 +35,7 @@ Although there is 18 warnings they consist of the same three warnings.
 The first image is the lighthouse scores for desktop and the second for mobile. Both scored very well across the board.
 
 
-## Compatibility + Responsiveness
+### Compatibility 
 
 ![chrome-validation](documentation/validate-chrome.png)
 ![firefox-mobile-validation](documentation/validate-firefox-mobile.png)
@@ -44,3 +43,5 @@ The first image is the lighthouse scores for desktop and the second for mobile. 
 Above are images of the site working on chrome on desktop and firefox with moble dimensions.
 
 Tested to work on all other chromium browers like opera and edge
+
+###
