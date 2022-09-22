@@ -134,52 +134,9 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
     - Vscode was my code editor for this project.
 
 
-## Testing 
+## Testing
 
-### Code validation 
-
-### HTML
-
-![HTML-validation](documentation/validate-html.png)
-
-My HTML file showed no warnings or errors when validated
-
-
-### CSS
-
-![CSS-validation](documentation/validate-css.png)
-
-The only warning on my own CSS files is for the background-clip attribute with the text property as it is deprecated but to my knowledge is is the only way to get the effect I was looking for. This is in my style.css file
-
-My utilites.css file showed no warnings or errors
-
-All other Warnings and errors are coming from Font Awesomes CSS files
-
-### Javascript
-
-![Javascript-validation](documentation/validate-js.png)
-
-Although there is 18 warnings they consist of the same three warnings.
-
-- the first is asking for the use of semicolons a practice I do not use in Javascript since I first began learning 
-- the second and third are warnings about using 'const' and '() =>' arrow functions which are supported in ES6 only. Seeing as that is the standard now I don't feel the warning are warrented
-
-### Lighthouse
-
-![lighthouse-desktop](/documentation/lighthouse-desktop.png)
-![lighthouse-mobile](/documentation/lighthouse-mobile.png)
-
-The first image is the lighthouse scores for desktop and the second for mobile. Both scored very well across the board.
-
-
-## Compatibility + Responsiveness
-
-![chrome-validation](documentation/validate-chrome.png)
-![firefox-mobile-validation](documentation/validate-firefox-mobile.png)
-
-Above are images of the site working on chrome on desktop and firefox with moble dimensions.
-
-Tested to work on all other chromium browers like opera and edge
+Please find all information pertaining to testing in [TESTING.md](TESTING.md)
 
 ## Deployment
 
