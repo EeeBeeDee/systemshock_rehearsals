@@ -863,6 +863,10 @@ h1 {
     grid-template-columns: 1fr;
    }
 
+   .grid-item-two-wide {
+    grid-column: 1;
+}
+
     .recording-text-box {
         width: 70%;
     }
