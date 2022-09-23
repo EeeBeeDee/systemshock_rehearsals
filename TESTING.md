@@ -25,7 +25,7 @@ All other Warnings and errors are coming from Font Awesomes CSS files
 
 ![Javascript-validation](documentation/validate-js.png)
 
-
+My small javascript file just used for navbar functionality showed no errors
 
 ### Lighthouse
 
