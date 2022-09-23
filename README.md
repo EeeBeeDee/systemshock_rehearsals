@@ -163,8 +163,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 All images sourced from [Unsplash.com](https://unsplash.com)
 
-### Mentions
+### Acknowledgements
 
 [Tim_nelson](https://tim.2bn.dev/) - My CI mentor who helped keep me focused and whose guidance really made this come together 
 
 The CI slack channel for all the tips, tricks and help.
+
+My CI hackathon-september-2022 team who I learned a massive amount of off in just a few days.
