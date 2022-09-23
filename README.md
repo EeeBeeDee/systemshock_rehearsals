@@ -159,4 +159,12 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits
 
+### Images 
+
+All images sourced from [Unsplash.com](https://unsplash.com)
+
+### Mentions
+
 [Tim_nelson](https://tim.2bn.dev/) - My CI mentor who helped keep me focused and whos guidance really made this come together 
+
+The CI slack channel for all the tips, tricks and help.
