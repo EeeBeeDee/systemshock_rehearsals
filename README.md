@@ -1,8 +1,8 @@
 # **SYSTEMSHOCK REHEARSALS**
 
-System shock Rehearsals is a passion project of mine as it is the exact business I would  love to open up myself. Not only a collection of equipment but people too that will make creating any sound of can think of as easily as possible.
+System shock Rehearsals is a passion project of mine as it is the exact business I would  love to open up myself. Not only a collection of equipment but people too that will make creating any sound you can think of as easily as possible.
 
-The aim is to make the information easily available as possible through a single scrollable website which is accessible on all the most commonly used devices.
+The aim is to make the information as easily available as possible through a single scrollable website which is accessible on all the most commonly used devices.
 
 [Link](https://eeebeedee.github.io/systemshock_rehearsals/) to deployed site
 
@@ -17,8 +17,8 @@ The aim is to make the information easily available as possible through a single
 * #### First time user goals
 
     * As a first time user, I want to be easily navigate the website
-    * As a first time user, I want my viewing experience to be smooth on any device I my use.
-    * As a first time user, I want the websites aim and goals to be easily understood and readily available .
+    * As a first time user, I want my viewing experience to be smooth on any device I use.
+    * As a first time user, I want the website's aim and goals to be easily understood and readily available .
 
 * #### Returning user goals
 
@@ -34,13 +34,13 @@ The aim is to make the information easily available as possible through a single
 
 For this project the three main prevalent colours I decided on were Persian Indigo #33006E, Raw Sienna #D98B5D and White #fff.
 
-As the name came first I initally thought of yellow for its connection to lightning thought I found it too bright. With the Raw Sienna colour I found it pops off the screen enough without being distracting.
+As the name came first I initially thought of yellow for its connection to lightning though I found it too bright. With the Raw Sienna colour I found it pops off the screen enough without being distracting.
 
 With the Persian Indigo the approach was similar, I needed a complementary darker colour that I felt had the same characteristics, eye catching without being too overbearing.
 
 #### Typography
 
-For typography I decided to go for a singular font from [Google Fonts](https://fonts.google.com/) called Manrope. With a similar approach to the colour palette I wanted to find font that at first glance was not standard but its appearance wasn't distracting or that it didn't affect readability. 
+For typography I decided to go for a singular font from [Google Fonts](https://fonts.google.com/) called Manrope. With a similar approach to the colour palette I wanted to find a font that at first glance was not standard but its appearance wasn't distracting or that it didn't affect readability. 
 
 ## Features
 
@@ -69,7 +69,7 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 ![hero-image](documentation/hero-doc.png)
 
 - uses a full screen image with two layers above it. One is a linear-gradient of the two main colours running from the top left to bottom right and another of just black. Using a medium opacity on both to create the effect
-- Intro blurb positioned out of the way to let background take center stage
+- Intro blurb positioned out of the way to let background take centre stage
 - button drops in a second after the page has loaded to draw the eye into that area
 -  for mobile the only change is the text area and its background is given more real estate to help keep all text readable and on a single screen (see below:)
 
@@ -82,7 +82,7 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 
 - uses the grid system to display available equipment 
 - every second item has a different border and overlay
-- when hovered the image darkens and zooms in while an overlay of the opposite color of the border comes up from below with the name of the equipment
+- when hovered the image darkens and zooms in while an overlay of the opposite colour of the border comes up from below with the name of the equipment
 - on mobile the only change is the size of the grid rows is changed to 1 to make it easier to view and stop the images distorting (see below:)
 
 ![equipment-mobile](documentation/equipment-mobile.png)
@@ -93,7 +93,7 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 
 #### For desktop
 
-- used cards to differentiate between our servicies 
+- used cards to differentiate between our services 
 - used flex box to allow an easy staggered effect
 - on hover the cards enlarge and the box-shadow grows giving an almost tactile impression
 
@@ -101,13 +101,13 @@ For typography I decided to go for a singular font from [Google Fonts](https://f
 
 #### For mobile
 
-- flex direction is changed to column to stack divs on top of each other for ease of reacding 
+- flex direction is changed to column to stack divs on top of each other for ease of reading 
 - new shape lends itself to scrolling on small screens better
 - images resized to fit new shape better
 
 ### Contact
 
-![fontact-form](documentation/contact.png)
+![contact-form](documentation/contact.png)
 
 - background uses a linear-gradient of the two primary colours and the property background-blend-mode with the screen value to create the effect
 - contact form itself is fully responsive and needed no tweaking between screen sizes
@@ -165,6 +165,6 @@ All images sourced from [Unsplash.com](https://unsplash.com)
 
 ### Mentions
 
-[Tim_nelson](https://tim.2bn.dev/) - My CI mentor who helped keep me focused and whos guidance really made this come together 
+[Tim_nelson](https://tim.2bn.dev/) - My CI mentor who helped keep me focused and whose guidance really made this come together 
 
 The CI slack channel for all the tips, tricks and help.
